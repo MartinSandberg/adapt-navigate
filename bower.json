@@ -1,0 +1,15 @@
+{
+  "name": "adapt-navigate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/martinsandberg/adapt-navigate",
+  "authors": [
+    "Martin Sandberg <martin.sandberg@xtractor.se>"
+  ],
+  "description": "A component that uses a graphic to navigate to a different content object",
+  "main": "/js/adapt-navigate.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

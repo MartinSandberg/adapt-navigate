@@ -1,0 +1,23 @@
+{
+  "name": "adapt-navigate",
+  "version": "0.0.1",
+  "description": "Graphic component which dynamically displays small, medium and large images of different resolutions based upon device width and navigates the user to another content object upon clicking",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinsandberg/adapt-navigate.git"
+  },
+  "author": "AdaptLearning",
+  "license": "GPL v3",
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-mocha": "*",
+    "karma-expect": "*"
+  }
+}

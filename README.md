@@ -1,0 +1,2 @@
+#adapt-navigate component for the Adapt Framework that displays an image of different resolutions based upon device width.  
+When the image is clicked the user will be navigated to a different content object (Adapt page).
