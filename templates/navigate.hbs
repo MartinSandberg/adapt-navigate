@@ -1,8 +1,10 @@
 <div class="navigate-inner component-inner">
     {{> component this}}
     <div class="navigate-widget component-widget navigate-{{{align}}}">
-        <span class="navigate-icon to-{{navigateTo}}" data-to="{{navigateTo}}">
-            <img src="{{_graphic.src}}" alt="{{_graphic.alt}}" title="{{_graphic.title}}" data-large="{{_graphic.large}}" data-medium="{{_graphic.medium}}" data-small="{{_graphic.small}}"  onClick="navigateTo({{{navigateTo}}});"/>
-        </span>
+        {{#each _items}}
+            <span class="navigate-icon to-{{navigateTo}}" data-to="{{navigateTo}}">
+                <img src="{{_graphic.src}}" alt="{{_graphic.alt}}" title="{{_graphic.title}}" data-large="{{_graphic.large}}" data-medium="{{_graphic.medium}}" data-small="{{_graphic.small}}"  onClick="navigateTo({{{navigateTo}}});"/>
+            </span>
+        {{/each}}
     </div>
 </div>

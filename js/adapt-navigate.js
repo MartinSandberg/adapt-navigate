@@ -37,10 +37,15 @@ define(function(require) {
         },
         
         resizeImage: function(width) {
-            var src = this.$('.navigate-widget img').attr('data-' + width);
-            this.$('.navigate-widget img').attr('src', src);
-
-            this.$('.navigate-widget').imageready(_.bind(function() {
+            //var src = this.$('.navigate-widget .navigate-icon img').attr('data-' + width);
+            //this.$('.navigate-widget .navigate-icon img').attr('src', src);
+            this.$('.navigate-icon').each(function( index ) {
+                var src = $(this).find('img').attr('data-' + width);
+                $(this).find('img').attr('src', src);
+            }); 
+            
+            
+            this.$('.navigate-widget .navigate-icon').imageready(_.bind(function() {
                 this.setReadyStatus();
             }, this));
         },

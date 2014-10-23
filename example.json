@@ -1,21 +1,58 @@
-    {
-        "_id":"c-30",
-        "_parentId":"b-15",
+     {
+        "_id":"c-1040",
+        "_parentId":"b-1040",
         "_type":"component",
         "_component":"navigate",
         "_classes":"",
-        "_layout":"left",
-        "title":"Here is a graphic navigation",
-        "displayTitle":"Here is a graphic navigation",
-        "body":"Hi everybody!",
-        "navigateTo":"co-10",
+        "_layout":"full",
+        "title":"",
+        "displayTitle":"",
+        "body":"&nbsp;",
         "align":"right",
         "instruction":"",
-        "_graphic": {
-            "alt": "alt text",
-            "title": "title text",
-            "large": "http://cdn.lipstiq.com/wp-content/uploads/2013/07/minions-film.jpg",
-            "medium": "http://www.cartoonbrew.com/wp-content/uploads/2013/09/minions-delay.jpg",
-            "small": "http://minionslovebananas.com/images/check-in-minion.jpg"
+         "_items": [
+             {
+                "navigateTo":"co-05",
+                 "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "course/en/images/footer_liten_pengarnas_vag.png",
+                    "medium": "course/en/images/footer_liten_pengarnas_vag.png",
+                    "small": "course/en/images/footer_liten_pengarnas_vag.png"
+                 }
+            },
+            {
+                "navigateTo":"co-10",
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "course/en/images/footer_liten_lagen.png",
+                    "medium": "course/en/images/footer_liten_lagen.png",
+                    "small": "course/en/images/footer_liten_lagen.png"
+                }
+            },
+            {
+                "navigateTo":"co-15",
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "course/en/images/footer_stor_ansvar.png",
+                    "medium": "course/en/images/footer_stor_ansvar.png",
+                    "small": "course/en/images/footer_stor_ansvar.png"
+                }
+            },
+            {
+                "navigateTo":"co-20",
+                "_graphic": {
+                    "alt": "",
+                    "title": "",
+                    "large": "course/en/images/footer_liten_test.png",
+                    "medium": "course/en/images/footer_liten_test.png",
+                    "small": "course/en/images/footer_liten_test.png"
+                }
+            }
+         ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
         }
     }
